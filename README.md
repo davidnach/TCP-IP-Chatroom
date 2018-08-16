@@ -8,12 +8,12 @@
 
 # Usage
     ./prog3_server participant_port observer_port
-    ./prog3_participant server_address server_port
-    ./prog3_observer server_address participant_port
+    ./prog3_participant server_address participant_port
+    ./prog3_observer server_address observer_port
    
 # Description 
     Program: prog3_observer.c
-      Purpose: allocate a socket, connect to the server, connect to a participant to print private or public messages associated with that       participant
+      Purpose: allocate a socket, connect to the server, connect to a participant to print private or public messages associated with that       participant.
     Program: prog3_server.c
       purpose: establish two ports, two listening sockets, accept and handle connections, host a chatroom.
     Program: prog3_participant.c
