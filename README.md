@@ -1,5 +1,5 @@
 # TCP-IP-Chatroom
-   Multiuser chatroom implemented using TCP/IP client-server model. Supports up to 255 concurrent users and allows for private and public    messages between users. A projects from WWU's Networks class. *temporarily public*
+   Server and client code for Multiuser chatroom implemented using TCP/IP client-server model. Server supports up to 255 concurrent users and allows for private and public messages between users. A projects from WWU's Networks class. *temporarily public*
 
 # Building
     gcc -c prog3_server.c
